@@ -1,0 +1,21 @@
+winget install Neovim.Neovim
+neovim download
+
+winget install --id Git.Git -e --source winget
+git download
+
+git clone -b v2.0 https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1
+vim ui
+
+spc+t+h - theme
+ctrl+n - file tree
+spc+c+h - cheatsheet
+
+scoop install gcc
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop
+
+TSInstall html
+TSInstall cpp
